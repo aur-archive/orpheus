@@ -1,0 +1,7 @@
+--- configure.old	2006-05-13 11:25:46.000000000 +0200
++++ configure	2012-10-28 20:18:06.821957123 +0100
+@@ -4221,3 +4221,3 @@
+ echo "${ECHO_T}$ac_cv_lib_ghttp_ghttp_request_new" >&6
+-if test $ac_cv_lib_ghttp_ghttp_request_new = yes; then
++if test $ac_cv_lib_ghttp_ghttp_request_new = nolibghttp; then
+   cat >>confdefs.h <<_ACEOF
